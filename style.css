@@ -1,10 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family= :ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 * {
   margin: 0px;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: inter-font;
-  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal; 
 }
 .img-icon {
   height: 100px;
@@ -18,7 +24,6 @@
   background-image: cover;
   background-color: black;
   display: flex;
-  font-family: inter-font;
   align-items: center;
   justify-content: center;
   color: antiquewhite;
@@ -46,16 +51,17 @@ h5 {
   padding: 0% 20%;
 }
 button {
-  background-color: transparent;
   border: none;
   padding: 10px 120px;
-  font-weight: 500;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 8px;
   background-color: rgba(45, 63, 63, 0.363);
 }
 button:hover {
   background-color: hsl(75, 94%, 57%);
   color: rgb(0, 0, 0);
-  transition: background-color 0.5s ease-in;
+  transition: background-color 300ms ease-in;
 }
 .main-btns {
   gap: 10px;
