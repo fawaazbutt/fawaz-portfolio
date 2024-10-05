@@ -67,5 +67,8 @@ button:hover {
   gap: 10px;
   display: flex;
   flex-direction: column;
+  
+}
+.btn-width{
   width: 100%;
 }
